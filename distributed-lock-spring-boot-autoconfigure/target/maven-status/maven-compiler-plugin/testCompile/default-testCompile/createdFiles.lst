@@ -1,0 +1,6 @@
+io/github/coderjeffery/distributedlock/autoconfigure/LockKeyEvaluatorTest.class
+io/github/coderjeffery/distributedlock/autoconfigure/DistributedLockAspectTest$Sample.class
+io/github/coderjeffery/distributedlock/autoconfigure/DistributedLockAutoConfigurationTest.class
+io/github/coderjeffery/distributedlock/autoconfigure/LockKeyEvaluatorTest$Sample.class
+io/github/coderjeffery/distributedlock/autoconfigure/DistributedLockAspectTest.class
+io/github/coderjeffery/distributedlock/autoconfigure/StringRedisTemplateLockCommandsTest.class

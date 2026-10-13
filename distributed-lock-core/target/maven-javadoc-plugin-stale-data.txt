@@ -1,0 +1,49 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+--add-modules
+ALL-MODULE-PATH
+--module-path
+'/Users/jeffery/workspace/java/distributed-lock-starter/distributed-lock-core/target/distributed-lock-core-0.1.0-SNAPSHOT.jar:/Users/jeffery/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar'
+--patch-module
+io.github.coderjeffery.distributedlock='/Users/jeffery/workspace/java/distributed-lock-starter/distributed-lock-core/src/main/java:/Users/jeffery/workspace/java/distributed-lock-starter/distributed-lock-core/target/generated-sources/annotations'
+-encoding
+'UTF-8'
+-protected
+-quiet
+--release
+17
+-author
+-bottom
+'Copyright &#169; 2026. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/jeffery/workspace/java/distributed-lock-starter/distributed-lock-core/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-Xdoclint:all,-missing
+-doctitle
+'Distributed Lock Core 0.1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'Distributed Lock Core 0.1.0-SNAPSHOT API'
+io.github.coderjeffery.distributedlock.redis
+io.github.coderjeffery.distributedlock
+/Users/jeffery/workspace/java/distributed-lock-starter/distributed-lock-core/target/reports/apidocs/constant-values.html = 1791861435735
+/Users/jeffery/workspace/java/distributed-lock-starter/distributed-lock-core/target/reports/apidocs/tag-search-index.js = 1791861436026
+/Users/jeffery/workspace/java/distributed-lock-starter/distributed-lock-core/target/reports/apidocs/overview-tree.html = 1791861435900
+/Users/jeffery/workspace/java/distributed-lock-starter/distributed-lock-core/target/reports/apidocs/module-search-index.js = 1791861436024
+/Users/jeffery/workspace/java/distributed-lock-starter/distributed-lock-core/target/reports/apidocs/index.html = 1791861436090
+/Users/jeffery/workspace/java/distributed-lock-starter/distributed-lock-core/target/reports/apidocs/package-search-index.js = 1791861436025
+/Users/jeffery/workspace/java/distributed-lock-starter/distributed-lock-core/target/reports/apidocs/serialized-form.html = 1791861435758
+/Users/jeffery/workspace/java/distributed-lock-starter/distributed-lock-core/target/reports/apidocs/index-all.html = 1791861436084
+/Users/jeffery/workspace/java/distributed-lock-starter/distributed-lock-core/target/reports/apidocs/allpackages-index.html = 1791861436020
+/Users/jeffery/workspace/java/distributed-lock-starter/distributed-lock-core/target/reports/apidocs/member-search-index.js = 1791861436026
+/Users/jeffery/workspace/java/distributed-lock-starter/distributed-lock-core/target/reports/apidocs/help-doc.html = 1791861436097
+/Users/jeffery/workspace/java/distributed-lock-starter/distributed-lock-core/target/reports/apidocs/element-list = 1791861435577
+/Users/jeffery/workspace/java/distributed-lock-starter/distributed-lock-core/target/reports/apidocs/search.html = 1791861436088
+/Users/jeffery/workspace/java/distributed-lock-starter/distributed-lock-core/target/reports/apidocs/allclasses-index.html = 1791861436013
+/Users/jeffery/workspace/java/distributed-lock-starter/distributed-lock-core/target/reports/apidocs/type-search-index.js = 1791861436025

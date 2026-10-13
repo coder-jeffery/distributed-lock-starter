@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.github.coderjeffery.distributedlock.demo.OrderServiceLockTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-10-13T04:55:29.406Z" hostname="Jefferys-MacBook-Pro.local" time="2.16">
+  <properties/>
+  <testcase name="starterWiresClientAndAnnotationLock()" classname="io.github.coderjeffery.distributedlock.demo.OrderServiceLockTest" time="0.438"/>
+  <testcase name="annotationLockTimesOutWhenAnotherHolderExists()" classname="io.github.coderjeffery.distributedlock.demo.OrderServiceLockTest" time="0.209"/>
+  <system-out><![CDATA[12:55:29.470 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [io.github.coderjeffery.distributedlock.demo.OrderServiceLockTest]: OrderServiceLockTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:55:29.544 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration io.github.coderjeffery.distributedlock.demo.DemoApplication for test class io.github.coderjeffery.distributedlock.demo.OrderServiceLockTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.6)
+
+2026-10-13T12:55:29.784+08:00  INFO 224 --- [distributed-lock-gradle-demo] [    Test worker] i.g.c.d.demo.OrderServiceLockTest        : Starting OrderServiceLockTest using Java 24.0.1 with PID 224 (started by jeffery in /Users/jeffery/workspace/java/distributed-lock-starter/samples/gradle-demo)
+2026-10-13T12:55:29.785+08:00  INFO 224 --- [distributed-lock-gradle-demo] [    Test worker] i.g.c.d.demo.OrderServiceLockTest        : No active profile set, falling back to 1 default profile: "default"
+2026-10-13T12:55:30.089+08:00  INFO 224 --- [distributed-lock-gradle-demo] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-13T12:55:30.091+08:00  INFO 224 --- [distributed-lock-gradle-demo] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-10-13T12:55:30.107+08:00  INFO 224 --- [distributed-lock-gradle-demo] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2026-10-13T12:55:30.910+08:00  INFO 224 --- [distributed-lock-gradle-demo] [    Test worker] i.g.c.d.demo.OrderServiceLockTest        : Started OrderServiceLockTest in 1.29 seconds (process running for 1.931)
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (/Users/jeffery/.m2/repository/net/bytebuddy/byte-buddy-agent/1.17.7/byte-buddy-agent-1.17.7.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>

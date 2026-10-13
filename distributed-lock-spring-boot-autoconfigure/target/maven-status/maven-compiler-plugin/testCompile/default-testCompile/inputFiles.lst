@@ -1,0 +1,4 @@
+/Users/jeffery/workspace/java/distributed-lock-starter/distributed-lock-spring-boot-autoconfigure/src/test/java/io/github/coderjeffery/distributedlock/autoconfigure/DistributedLockAspectTest.java
+/Users/jeffery/workspace/java/distributed-lock-starter/distributed-lock-spring-boot-autoconfigure/src/test/java/io/github/coderjeffery/distributedlock/autoconfigure/DistributedLockAutoConfigurationTest.java
+/Users/jeffery/workspace/java/distributed-lock-starter/distributed-lock-spring-boot-autoconfigure/src/test/java/io/github/coderjeffery/distributedlock/autoconfigure/LockKeyEvaluatorTest.java
+/Users/jeffery/workspace/java/distributed-lock-starter/distributed-lock-spring-boot-autoconfigure/src/test/java/io/github/coderjeffery/distributedlock/autoconfigure/StringRedisTemplateLockCommandsTest.java

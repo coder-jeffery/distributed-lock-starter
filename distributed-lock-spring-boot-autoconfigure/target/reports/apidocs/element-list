@@ -1,0 +1,3 @@
+module:io.github.coderjeffery.distributedlock.autoconfigure
+io.github.coderjeffery.distributedlock.annotation
+io.github.coderjeffery.distributedlock.autoconfigure

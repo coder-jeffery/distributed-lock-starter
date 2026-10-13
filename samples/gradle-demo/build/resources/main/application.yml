@@ -1,0 +1,17 @@
+server:
+  port: 18080
+
+spring:
+  application:
+    name: distributed-lock-gradle-demo
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+
+distributed-lock:
+  enabled: true
+  prefix: dlock
+  default-wait-time: 3s
+  default-lease-time: 30s
+  watchdog-enabled: true

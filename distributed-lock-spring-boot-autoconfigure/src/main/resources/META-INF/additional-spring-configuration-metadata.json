@@ -1,0 +1,40 @@
+{
+  "properties": [
+    {
+      "name": "distributed-lock.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Whether distributed lock auto-configuration is active.",
+      "defaultValue": true
+    },
+    {
+      "name": "distributed-lock.prefix",
+      "type": "java.lang.String",
+      "description": "Redis key prefix. A colon is appended when missing.",
+      "defaultValue": "dlock"
+    },
+    {
+      "name": "distributed-lock.default-wait-time",
+      "type": "java.time.Duration",
+      "description": "Default wait used by lock() and @DistributedLocked when waitTime is omitted.",
+      "defaultValue": "3s"
+    },
+    {
+      "name": "distributed-lock.default-lease-time",
+      "type": "java.time.Duration",
+      "description": "Default lock TTL / lease.",
+      "defaultValue": "30s"
+    },
+    {
+      "name": "distributed-lock.watchdog-enabled",
+      "type": "java.lang.Boolean",
+      "description": "Renew held locks before TTL expiry.",
+      "defaultValue": true
+    },
+    {
+      "name": "distributed-lock.aop-order",
+      "type": "java.lang.Integer",
+      "description": "Spring AOP advisor order. Lower runs outside @Transactional by default.",
+      "defaultValue": 0
+    }
+  ]
+}

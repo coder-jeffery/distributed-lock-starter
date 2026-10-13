@@ -1,0 +1,53 @@
+{
+  "groups": [
+    {
+      "name": "distributed-lock",
+      "type": "io.github.coderjeffery.distributedlock.autoconfigure.DistributedLockProperties",
+      "sourceType": "io.github.coderjeffery.distributedlock.autoconfigure.DistributedLockProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "distributed-lock.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Whether distributed lock auto-configuration is active.",
+      "sourceType": "io.github.coderjeffery.distributedlock.autoconfigure.DistributedLockProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "distributed-lock.prefix",
+      "type": "java.lang.String",
+      "description": "Redis key prefix. A colon is appended when missing.",
+      "sourceType": "io.github.coderjeffery.distributedlock.autoconfigure.DistributedLockProperties",
+      "defaultValue": "dlock"
+    },
+    {
+      "name": "distributed-lock.default-wait-time",
+      "type": "java.time.Duration",
+      "description": "Default wait used by lock() and @DistributedLocked when waitTime is omitted.",
+      "sourceType": "io.github.coderjeffery.distributedlock.autoconfigure.DistributedLockProperties",
+      "defaultValue": "3s"
+    },
+    {
+      "name": "distributed-lock.default-lease-time",
+      "type": "java.time.Duration",
+      "description": "Default lock TTL / lease.",
+      "sourceType": "io.github.coderjeffery.distributedlock.autoconfigure.DistributedLockProperties",
+      "defaultValue": "30s"
+    },
+    {
+      "name": "distributed-lock.watchdog-enabled",
+      "type": "java.lang.Boolean",
+      "description": "Renew held locks before TTL expiry.",
+      "sourceType": "io.github.coderjeffery.distributedlock.autoconfigure.DistributedLockProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "distributed-lock.aop-order",
+      "type": "java.lang.Integer",
+      "description": "Spring AOP advisor order. Lower runs outside @Transactional by default.",
+      "sourceType": "io.github.coderjeffery.distributedlock.autoconfigure.DistributedLockProperties",
+      "defaultValue": 0
+    }
+  ]
+}
